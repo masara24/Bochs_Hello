@@ -1,14 +1,12 @@
-# BUILD_P4a
+# Bochs Hello
 
 
 
 ## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+Install [Bochs}(https://links.jianshu.com/go?to=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fbochs%2Ffiles%2Fbochs%2F)
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Commad
+- Windows Commad
 
 <pre>
 >set PATH=%PATH%;"C:\Program Files\Bochs-2.8"
