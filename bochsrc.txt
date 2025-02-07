@@ -1,0 +1,19 @@
+###############################################
+# Configuration file for Bochs
+###############################################
+
+# 32MB
+megs: 32
+
+romimage: file=$BXSHARE/BIOS-bochs-latest
+vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest
+
+# only one floppy disk, so a, if second, b, and so on
+floppya: 1_44=a.img, status=inserted
+
+boot: floppy
+
+log: bochsout.txt
+
+mouse: enabled=0
+keyboard:keymap=$BXSHARE/keymaps/x11-pc-us.map
