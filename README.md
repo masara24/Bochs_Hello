@@ -8,12 +8,14 @@ To make it easy for you to get started with GitLab, here's a list of recommended
 
 Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
-## Add your files
+## Commad
 
->cmd
+<pre>
 >set PATH=%PATH%;"C:\Program Files\Bochs-2.8"
 >set BXSHARE=C:\Program Files\Bochs-2.8
 >set BXSHARE
+>bochs -f bochsrc.txt
+</pre>
 
 ## Roadmap
 If you have ideas for releases in the future, it is a good idea to list them in the README.
